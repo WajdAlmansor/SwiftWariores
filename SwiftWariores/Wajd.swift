@@ -9,7 +9,34 @@ import SwiftUI
 
 struct Wajd: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            Image("MyProfile")
+                .resizable()
+                .frame(width: 150, height: 150)
+                .clipShape(Circle())
+                
+            Text("Wajd Almansor")
+                .font(.title)
+                .fontWeight(.bold)
+                .foregroundColor(.purple)
+            
+            Text("I'm 22-years-old, I love butterflies,      video games and codding.")
+                .font(.headline)
+            .multilineTextAlignment(.center)
+            .padding()
+            
+            
+        }
+        .padding()
+    }
+        
+        
+}
+
+struct ContentView_Previews: PreviewProvider {
+    static var previews: some View {
+        ContentView()
+            
     }
 }
 
