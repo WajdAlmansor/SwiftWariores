@@ -11,6 +11,11 @@
 		B3368DE22CA9762300B0489F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3368DE12CA9762300B0489F /* ContentView.swift */; };
 		B3368DE42CA9762400B0489F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3368DE32CA9762400B0489F /* Assets.xcassets */; };
 		B3368DE72CA9762400B0489F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3368DE62CA9762400B0489F /* Preview Assets.xcassets */; };
+		B3368DEE2CA9764100B0489F /* Wajd.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3368DED2CA9764100B0489F /* Wajd.swift */; };
+		B3368DF02CA9764D00B0489F /* Maya.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3368DEF2CA9764D00B0489F /* Maya.swift */; };
+		B3368DF22CA9765F00B0489F /* Deemah.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3368DF12CA9765F00B0489F /* Deemah.swift */; };
+		B3368DF42CA9766A00B0489F /* Raneem.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3368DF32CA9766A00B0489F /* Raneem.swift */; };
+		B3368DF62CA9767600B0489F /* Amal.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3368DF52CA9767600B0489F /* Amal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +24,11 @@
 		B3368DE12CA9762300B0489F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B3368DE32CA9762400B0489F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3368DE62CA9762400B0489F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B3368DED2CA9764100B0489F /* Wajd.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Wajd.swift; sourceTree = "<group>"; };
+		B3368DEF2CA9764D00B0489F /* Maya.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Maya.swift; sourceTree = "<group>"; };
+		B3368DF12CA9765F00B0489F /* Deemah.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Deemah.swift; sourceTree = "<group>"; };
+		B3368DF32CA9766A00B0489F /* Raneem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Raneem.swift; sourceTree = "<group>"; };
+		B3368DF52CA9767600B0489F /* Amal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Amal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +63,11 @@
 			children = (
 				B3368DDF2CA9762300B0489F /* SwiftWarioresApp.swift */,
 				B3368DE12CA9762300B0489F /* ContentView.swift */,
+				B3368DF52CA9767600B0489F /* Amal.swift */,
+				B3368DF32CA9766A00B0489F /* Raneem.swift */,
+				B3368DF12CA9765F00B0489F /* Deemah.swift */,
+				B3368DEF2CA9764D00B0489F /* Maya.swift */,
+				B3368DED2CA9764100B0489F /* Wajd.swift */,
 				B3368DE32CA9762400B0489F /* Assets.xcassets */,
 				B3368DE52CA9762400B0489F /* Preview Content */,
 			);
@@ -137,7 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3368DF62CA9767600B0489F /* Amal.swift in Sources */,
 				B3368DE22CA9762300B0489F /* ContentView.swift in Sources */,
+				B3368DF42CA9766A00B0489F /* Raneem.swift in Sources */,
+				B3368DF02CA9764D00B0489F /* Maya.swift in Sources */,
+				B3368DF22CA9765F00B0489F /* Deemah.swift in Sources */,
+				B3368DEE2CA9764100B0489F /* Wajd.swift in Sources */,
 				B3368DE02CA9762300B0489F /* SwiftWarioresApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
