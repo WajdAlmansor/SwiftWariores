@@ -9,7 +9,25 @@ import SwiftUI
 
 struct Raneem: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack{
+            Image("Raneem")
+                .resizable()
+                .scaledToFit()
+                .clipShape(/*@START_MENU_TOKEN@*/Circle()/*@END_MENU_TOKEN@*/)
+                .overlay(Circle().stroke(Color.gray, lineWidth: 4))
+            
+            Text("Raneem Alomair")
+                .font(.title)
+                .fontWeight(/*@START_MENU_TOKEN@*/.bold/*@END_MENU_TOKEN@*/)
+                .foregroundColor(Color.black)
+            
+                .padding(.bottom)
+                Text("My name is Raneem, Im 20 years old and im an IT studend at IMAMU ")
+            
+               
+            
+            
+        }
     }
 }
 
